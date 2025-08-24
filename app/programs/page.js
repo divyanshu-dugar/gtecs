@@ -104,11 +104,11 @@ export default function Programs() {
               Ready to Transform Your Child&apos;s Learning Journey?
             </h2>
             <p className="text-gray-600 mb-8 text-lg">
-              Book a free trial session to experience our innovative teaching methods firsthand
+              Book an info-session to learn more about our courses and innovative teaching methods firsthand
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="px-8 py-4 bg-[#303274] text-white font-semibold rounded-xl shadow-lg hover:bg-[#3f42a5] transition flex items-center gap-2">
-                Book Free Trial
+                Book Info Session
                 <ArrowRight size={20} />
               </button>
               <button className="px-8 py-4 bg-white text-[#303274] font-semibold rounded-xl shadow-lg border border-[#303274] hover:bg-blue-50 transition">
