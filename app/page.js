@@ -47,7 +47,7 @@ export default function Home() {
               we inspire creativity, confidence, and critical thinking in every child.
             </p>
             <p className="italic text-gray-200 text-lg">
-              &quot;Every child is a genius in their own way — we just help bring it out.&quot;
+              &quot;Every child is a genius in their own way - we just help bring it out.&quot;
             </p>
             
             {/* Call to Action Buttons */}
@@ -63,6 +63,7 @@ export default function Home() {
                 </button>
               </Link>
             </div>
+            
           </div>
         </div>
 
@@ -123,7 +124,7 @@ export default function Home() {
           {/* Google Street View */}
           <div className="rounded-2xl overflow-hidden shadow-lg">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!4v1756064245730!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJQ0V5czY1RUE.!2m2!1d43.75703721638828!2d-79.31224170338099!3f200!4f0!5f0.7820865974627469"
+              src="https://www.google.com/maps/embed?pb=!4v1756071779668!6m8!1m7!1sCAoSFkNJSE0wb2dLRUlDQWdJQ0V5cTZ5TWc.!2m2!1d43.75707720701137!2d-79.31215400647736!3f271.1414852852547!4f-15.48013662171391!5f0.7820865974627469"
               width="100%"
               height="400"
               style={{ border: 0 }}
@@ -135,7 +136,7 @@ export default function Home() {
           {/* Google Map */}
           <div className="rounded-2xl overflow-hidden shadow-lg">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2888.9971802843797!2d-79.31224170338099!3d43.75703721638828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDPCsDQ1JzI1LjQiTiA3OcKwMTgnNDQuMCJX!5e0!3m2!1sen!2sca!4v1756064245730"
+              src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1440.8797515744927!2d-79.31332021951677!3d43.757090703569986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d212b41de03d%3A0xd55680877b2f7e2f!2sUCMAS%20-%20Abacus%2C%20OBOTZ%20-%20Robotics%20%26%20i-Maths!5e0!3m2!1sen!2sus!4v1756071978222!5m2!1sen!2sus"
               width="100%"
               height="400"
               style={{ border: 0 }}
