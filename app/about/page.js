@@ -7,7 +7,7 @@ export default function AboutUs() {
       <section className="max-w-7xl mx-auto px-6">
         {/* Hero */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-5xl font-bold text-[#303274] mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-[#303274] mb-6">
             About Us
           </h2>
           <p className="text-lg md:text-2xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
