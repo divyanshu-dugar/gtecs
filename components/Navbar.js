@@ -2,13 +2,30 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { Menu, X, Phone } from "lucide-react";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
+
+  // Close mobile menu when route changes
+  useEffect(() => {
+    setIsOpen(false);
+  }, [pathname]);
+
+  // Close mobile menu when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (isOpen && !event.target.closest('nav')) {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener('click', handleClickOutside);
+    return () => document.removeEventListener('click', handleClickOutside);
+  }, [isOpen]);
 
   // Reusable link styles
   const linkClasses = (href) =>
@@ -63,7 +80,10 @@ export default function Navbar() {
 
         {/* Mobile Menu Toggle */}
         <button
-          onClick={() => setIsOpen(!isOpen)}
+          onClick={(e) => {
+            e.stopPropagation();
+            setIsOpen(!isOpen);
+          }}
           className="md:hidden text-gray-700"
         >
           {isOpen ? <X size={28} /> : <Menu size={28} />}
@@ -75,24 +95,38 @@ export default function Navbar() {
         <div className="md:hidden bg-white shadow-lg px-6 py-4">
           {/* Added flex-col to stack items vertically */}
           <div className="flex flex-col space-y-4">
-            <Link href="/about" className={`${linkClasses("/about")} py-2`}>
+            <Link 
+              href="/about" 
+              className={`${linkClasses("/about")} py-2`}
+              onClick={() => setIsOpen(false)}
+            >
               About Us
             </Link>
-            {/* <Link href="/gallery" className={`${linkClasses("/gallery")} py-2`}>
+            {/* <Link 
+              href="/gallery" 
+              className={`${linkClasses("/gallery")} py-2`}
+              onClick={() => setIsOpen(false)}
+            >
               Gallery
             </Link> */}
-            <Link href="/programs" className={`${linkClasses("/programs")} py-2`}>
+            <Link 
+              href="/programs" 
+              className={`${linkClasses("/programs")} py-2`}
+              onClick={() => setIsOpen(false)}
+            >
               Programs
             </Link>
             <Link
               href="/book-info"
               className="block px-4 py-3 rounded-2xl bg-[#303274] text-white text-center font-semibold"
+              onClick={() => setIsOpen(false)}
             >
               Book Info Session
             </Link>
             <a
               href="tel:+16479957157"
               className="flex justify-center items-center space-x-2 px-4 py-3 rounded-2xl bg-[#F58634] text-white font-semibold"
+              onClick={() => setIsOpen(false)}
             >
               <Phone size={18} />
               <span>+1 647-GTECS-57</span>
