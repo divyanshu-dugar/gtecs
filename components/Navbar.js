@@ -36,9 +36,9 @@ export default function Navbar() {
           <Link href="/about" className={linkClasses("/about")}>
             About Us
           </Link>
-          <Link href="/gallery" className={linkClasses("/gallery")}>
+          {/* <Link href="/gallery" className={linkClasses("/gallery")}>
             Gallery
-          </Link>
+          </Link> */}
           <Link href="/programs" className={linkClasses("/programs")}>
             Programs
           </Link>
