@@ -136,7 +136,7 @@ export default function Home() {
           {/* Google Map */}
           <div className="rounded-2xl overflow-hidden shadow-lg">
             <iframe
-              src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1440.8797515744927!2d-79.31332021951677!3d43.757090703569986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d212b41de03d%3A0xd55680877b2f7e2f!2sUCMAS%20-%20Abacus%2C%20OBOTZ%20-%20Robotics%20%26%20i-Maths!5e0!3m2!1sen!2sus!4v1756071978222!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1440.8797515744927!2d-79.31332021951677!3d43.757090703569986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d212b41de03d%3A0xd55680877b2f7e2f!2sUCMAS%20-%20Abacus%2C%20OBOTZ%20-%20Robotics%20%26%20i-Maths!5e0!3m2!1sen!2sus!4v1756071978222!5m2!1sen!2sus"
               width="100%"
               height="400"
               style={{ border: 0 }}
