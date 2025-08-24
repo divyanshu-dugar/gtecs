@@ -6,8 +6,8 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export default function Home() {
   const slides = [
-    "/hero/image.png", 
-    "/hero/image2.jpg",
+    "/hero/image.png", // replace with your real images
+    "/hero/hero2.jpg",
     "/hero/hero3.jpg",
   ];
 
@@ -46,7 +46,7 @@ export default function Home() {
               we inspire creativity, confidence, and critical thinking in every child.
             </p>
             <p className="italic text-gray-200 text-lg">
-              "Every child is a genius in their own way — we just help bring it out."
+              &quot;Every child is a genius in their own way — we just help bring it out.&quot;
             </p>
             
             {/* Call to Action Buttons */}

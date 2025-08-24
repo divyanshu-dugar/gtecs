@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function AboutUs() {
   return (
-    <div className="pt-24 pb-16"> 
+    <div className="pt-24 pb-16">
       <section className="max-w-7xl mx-auto px-6">
         {/* Hero */}
         <div className="text-center mb-12">
@@ -28,7 +28,7 @@ export default function AboutUs() {
               Elevating Young Minds at GTECS
             </h3>
             <p className="text-gray-800 leading-relaxed text-lg mb-4">
-              <span className="text-[#F58634] font-semibold">GTECS</span> is a private educational facility dedicated to enhancing children's <span className="text-[#303274] font-medium">cognitive abilities</span> and <span className="text-[#303274] font-medium">skills</span> through after-school programs. Partnering with global leaders in child brain development, we help children discover <span className="text-[#F58634] font-semibold">hidden potential</span>, build skills, and grow into <span className="text-[#303274] font-medium">confident learners</span>.
+              <span className="text-[#F58634] font-semibold">GTECS</span> is a private educational facility dedicated to enhancing children&apos;s <span className="text-[#303274] font-medium">cognitive abilities</span> and <span className="text-[#303274] font-medium">skills</span> through after-school programs. Partnering with global leaders in child brain development, we help children discover <span className="text-[#F58634] font-semibold">hidden potential</span>, build skills, and grow into <span className="text-[#303274] font-medium">confident learners</span>.
             </p>
             <p className="text-gray-800 leading-relaxed text-lg">
               Our programs include <span className="text-[#F58634] font-semibold">UCMAS Mental Math</span>, <span className="text-[#F58634] font-semibold">Educational Therapy</span>, <span className="text-[#F58634] font-semibold">Robotics</span>, and more - each designed to nurture <span className="text-[#303274] font-medium">creativity</span>, <span className="text-[#303274] font-medium">critical thinking</span>, and <span className="text-[#303274] font-medium">lifelong learning</span>.
@@ -78,7 +78,7 @@ export default function AboutUs() {
             </h4>
             <p className="mt-2 text-gray-600 text-sm leading-relaxed">
               From ages 3 to 16, our wide variety of globally successful programs
-              fill learning gaps and support every child's unique journey.
+              fill learning gaps and support every child&apos;s unique journey.
             </p>
           </div>
         </div>
@@ -135,7 +135,7 @@ export default function AboutUs() {
               <div className="relative w-full h-48">
                 <Image
                   src="/programs/imath.png"
-                  alt="i-Maths Young Children's Math Enrichment"
+                  alt="i-Maths Young Children&apos;s Math Enrichment"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform"
                 />
@@ -145,7 +145,7 @@ export default function AboutUs() {
                   i-Maths Math Enrichment
                 </h4>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  Fun and interactive math programs to enhance young learners'
+                  Fun and interactive math programs to enhance young learners&apos;
                   skills.
                 </p>
               </div>

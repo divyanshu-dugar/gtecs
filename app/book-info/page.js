@@ -30,7 +30,7 @@ export default function BookInfoSession() {
     // which would then email divyu2004@gmail.com
     console.log("Form submitted:", formData);
     
-    // For demo purposes, we'll just show the success message
+    // For demo purposes, we&apos;ll just show the success message
     setIsSubmitted(true);
     
     // In a real implementation, you might want to actually send the email here
@@ -44,7 +44,7 @@ export default function BookInfoSession() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50 pt-24 pb-12 px-4"> {/* Added pt-24 for navbar spacing */}
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50 pt-24 pb-12 px-4">
       <motion.section
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -82,7 +82,7 @@ export default function BookInfoSession() {
               <div className="text-green-500 text-5xl mb-4">✓</div>
               <h2 className="text-2xl font-bold text-gray-800 mb-2">Thank You!</h2>
               <p className="text-gray-600 mb-6">
-                Your information session request has been received. We'll contact you shortly to confirm your booking.
+                Your information session request has been received. We&apos;ll contact you shortly to confirm your booking.
               </p>
               <button
                 onClick={() => setIsSubmitted(false)}
