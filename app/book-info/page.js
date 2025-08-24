@@ -9,9 +9,7 @@ export default function BookInfoSession() {
     name: "",
     phone: "",
     email: "",
-    message: "",
-    date: "Saturday, Sept 7, 2025",
-    time: "2:00 PM – 4:00 PM"
+    message: ""
   });
 
   const [isSubmitted, setIsSubmitted] = useState(false);
