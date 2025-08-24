@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export default function Home() {
@@ -51,12 +52,16 @@ export default function Home() {
             
             {/* Call to Action Buttons */}
             <div className="mt-10 flex flex-col sm:flex-row gap-4">
-              <button className="px-6 py-3 bg-[#F58634] text-white font-semibold rounded-lg shadow-md hover:bg-[#e07a2c] transition">
-                Book Info Session
-              </button>
-              <button className="px-6 py-3 bg-white text-[#303274] font-semibold rounded-lg shadow-md hover:bg-gray-100 transition">
-                View Programs
-              </button>
+              <Link href="/book-info">
+                <button className="px-6 py-3 bg-[#F58634] text-white font-semibold rounded-lg shadow-md hover:bg-[#e07a2c] transition">
+                  Book Info Session
+                </button>
+              </Link>
+              <Link href="/programs">
+                <button className="px-6 py-3 bg-white text-[#303274] font-semibold rounded-lg shadow-md hover:bg-gray-100 transition">
+                  View Programs
+                </button>
+              </Link>
             </div>
           </div>
         </div>
