@@ -82,11 +82,6 @@ gtecs-website/
 - WhatsApp integration for quick contact
 - Center location and contact details
 
-### Adding New Pages
-1. Create a new folder in `/app/` with `page.js`
-2. Add navigation link in `/components/navbar.js`
-3. Update footer links if needed in `/components/footer.js`
-
 ## 📞 Contact Information
 
 - **Phone**: +1 (647) 995-7157 / +1 (647) 994-7157
