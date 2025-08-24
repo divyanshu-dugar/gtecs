@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function AboutUs() {
   return (
-    <div className="pt-24 pb-16"> {/* Added padding for navbar */}
+    <div className="pt-24 pb-16"> 
       <section className="max-w-7xl mx-auto px-6">
         {/* Hero */}
         <div className="text-center mb-12">
