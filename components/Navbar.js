@@ -78,9 +78,9 @@ export default function Navbar() {
             <Link href="/about" className={`${linkClasses("/about")} py-2`}>
               About Us
             </Link>
-            <Link href="/gallery" className={`${linkClasses("/gallery")} py-2`}>
+            {/* <Link href="/gallery" className={`${linkClasses("/gallery")} py-2`}>
               Gallery
-            </Link>
+            </Link> */}
             <Link href="/programs" className={`${linkClasses("/programs")} py-2`}>
               Programs
             </Link>
