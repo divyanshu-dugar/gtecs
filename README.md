@@ -7,7 +7,10 @@ A modern, responsive website for GTECS Educational Center built with Next.js, fe
 ![React](https://img.shields.io/badge/React-18.2.0-61dafb?style=for-the-badge&logo=react)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38b2ac?style=for-the-badge&logo=tailwind-css)
 
-![Website Preview](https://via.placeholder.com/800x400/303274/ffffff?text=GTECS+Website+Preview)
+## Webstite Preview
+
+<img width="1900" height="861" alt="image" src="https://github.com/user-attachments/assets/d8fc73b8-8380-4eb2-aa0c-f4b6d067a4da" />
+<img width="1900" height="893" alt="image" src="https://github.com/user-attachments/assets/082adda4-cbce-4574-95ac-d099d24d838f" />
 
 ## 🚀 Live Demo
 
@@ -104,4 +107,3 @@ This project is proprietary and belongs to GTECS Educational Center.
 <div align="center">
 Made with ❤️ by <a href="https://github.com/divyanshu-dugar">Divyanshu Dugar</a> for GTECS Educational Center
 </div>
-```
