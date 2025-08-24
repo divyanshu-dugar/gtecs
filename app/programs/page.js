@@ -12,7 +12,7 @@ export default function Programs() {
       id: 1,
       title: "UCMAS Mental Math Program",
       description: "An Abacus-based whole brain development program for children ages 5-13 that dramatically enhances cognitive abilities through mental math training.",
-      fullDescription: "UCMAS Mental Math program is an Abacus based whole brain development program for children between the ages of 5-13. It leads to increased Concentration, Observation, Memory, Imagination and Creativity (COMIC) in kids. It results in supremacy with Judgement, Application, Reasoning and Self Confidence (JARS). UCMAS is an internationally recognized and widely demonstrated children's Cognitive Enrichment program.",
+      fullDescription: "UCMAS Mental Math program is an Abacus based whole brain development program for children between the ages of 5-13. It leads to increased Concentration, Observation, Memory, Imagination and Creativity (COMIC) in kids. It results in supremacy with Judgement, Application, Reasoning and Self Confidence (JARS). UCMAS is an internationally recognized and widely demonstrated children&apos;s Cognitive Enrichment program.",
       image: "/programs/ucmas.png",
       age: "5-13 years",
       duration: "2 hours/week",
@@ -25,7 +25,7 @@ export default function Programs() {
       id: 2,
       title: "OBOTZ Robotics & Coding",
       description: "A multi-disciplinary robotics program that teaches children about physics, electronics, and programming through hands-on experiences.",
-      fullDescription: "OBOTZ is a multi-disciplinary robotics program with a specially designed educational pathway to teach and train young minds about Physics, Electronics, and Robotics. STEM learning is the foundational building block of this program, leading youngsters to think scientifically and advance in facts. It's a perfect companion for machine, hardware, and programming-based learning.",
+      fullDescription: "OBOTZ is a multi-disciplinary robotics program with a specially designed educational pathway to teach and train young minds about Physics, Electronics, and Robotics. STEM learning is the foundational building block of this program, leading youngsters to think scientifically and advance in facts. It&apos;s a perfect companion for machine, hardware, and programming-based learning.",
       image: "/programs/obotz.jpg",
       age: "7-15 years",
       duration: "2.5 hours/week",
@@ -38,7 +38,7 @@ export default function Programs() {
       id: 3,
       title: "iMaths Creative Mathematics",
       description: "A playful mathematics program designed for young children to develop numerical abilities and logical thinking through fun activities.",
-      fullDescription: "iMaths makes mathematics fun for 3 to 7 year olds using play-based methods. Through puzzles, activities, games, and tangrams, math becomes an enjoyable 'no problem' experience. Math education doesn't need to start only when your child steps into school - it starts much earlier. We help develop essential mental and logical skills that form the foundation for all career directions.",
+      fullDescription: "iMaths makes mathematics fun for 3 to 7 year olds using play-based methods. Through puzzles, activities, games, and tangrams, math becomes an enjoyable &apos;no problem&apos; experience. Math education doesn&apos;t need to start only when your child steps into school - it starts much earlier. We help develop essential mental and logical skills that form the foundation for all career directions.",
       image: "/programs/imath.png",
       age: "3-7 years",
       duration: "1.5 hours/week",
@@ -62,7 +62,7 @@ export default function Programs() {
             Our Educational Programs
           </h1>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
-            Discover our transformative programs designed to unlock your child's potential through innovative learning approaches
+            Discover our transformative programs designed to unlock your child&apos;s potential through innovative learning approaches
           </p>
         </div>
 
@@ -101,7 +101,7 @@ export default function Programs() {
         <div className="text-center mt-20">
           <div className="bg-white rounded-3xl shadow-xl p-8 max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-[#303274] mb-4">
-              Ready to Transform Your Child's Learning Journey?
+              Ready to Transform Your Child&apos;s Learning Journey?
             </h2>
             <p className="text-gray-600 mb-8 text-lg">
               Book a free trial session to experience our innovative teaching methods firsthand
