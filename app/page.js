@@ -7,8 +7,8 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 export default function Home() {
   const slides = [
     "/hero/image.png", // replace with your real images
-    "/hero/hero2.jpg",
-    "/hero/hero3.jpg",
+    "/hero/image.jpg",
+    "/hero/image.jpg",
   ];
 
   const [current, setCurrent] = useState(0);
