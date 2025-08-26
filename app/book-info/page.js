@@ -28,8 +28,8 @@ export default function BookInfoSession() {
     try {
       // Send confirmation email to the user who filled the form
       await emailjs.send(
-        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,   // Service ID
-        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,  // Template ID
+        service_uejz2jf,   // Service ID
+        template_flxwcsb,  // Template ID
         {
           to_email: formData.email,   // recipient (user who filled the form)
           to_name: formData.name,     // their name
@@ -37,7 +37,7 @@ export default function BookInfoSession() {
           to_phone: formData.phone,
           message: `${formData.message ? formData.message : ""}`,
         },
-        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY    // Public Key
+        OMv8P5jjue8hwzjEz    // Public Key
       );
 
       setIsSubmitted(true);
