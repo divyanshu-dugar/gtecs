@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Calendar, Clock, MapPin, BookOpen, Send, MessageCircle } from "lucide-react";
 import { motion } from "framer-motion";
+import emailjs from "emailjs-com";
 
 export default function BookInfoSession() {
   const [formData, setFormData] = useState({
@@ -21,18 +22,31 @@ export default function BookInfoSession() {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    
-    // In a real implementation, you would send this data to your backend
-    // which would then email divyu2004@gmail.com
-    console.log("Form submitted:", formData);
-    
-    // For demo purposes, we&apos;ll just show the success message
-    setIsSubmitted(true);
-    
-    // In a real implementation, you might want to actually send the email here
-    // using a service like EmailJS, Formspree, or a custom backend endpoint
+
+    try {
+      // Send confirmation email to the user who filled the form
+      await emailjs.send(
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,   // Service ID
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,  // Template ID
+        {
+          to_email: formData.email,   // recipient (user who filled the form)
+          to_name: formData.name,     // their name
+          from_name: "GTECS", // your default sender name
+          to_phone: formData.phone,
+          message: `${formData.message ? formData.message : ""}`,
+        },
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY    // Public Key
+      );
+
+      setIsSubmitted(true);
+      setFormData({ name: "", phone: "", email: "", message: "" });
+
+    } catch (err) {
+      console.error("EmailJS Error:", err);
+      alert("❌ Failed to send. Please try again.");
+    }
   };
 
   const handleWhatsApp = () => {
@@ -61,7 +75,6 @@ export default function BookInfoSession() {
         </div>
 
         <div className="p-8">
-          {/* Details */}
           <div className="grid sm:grid-cols-2 gap-6 mb-8 p-4 bg-blue-50 rounded-lg">
             <div className="flex items-center gap-3 sm:col-span-2">
               <MapPin className="w-6 h-6 text-[#303274]" />
@@ -135,55 +148,55 @@ export default function BookInfoSession() {
                     id="email"
                     name="email"
                     required
-                      value={formData.email}
-                      onChange={handleChange}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#303274] focus:border-transparent"
-                      placeholder="Your email address"
-                    />
-                  </div>
+                    value={formData.email}
+                    onChange={handleChange}
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#303274] focus:border-transparent"
+                    placeholder="Your email address"
+                  />
+                </div>
+                
+                <div>
+                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
+                    Message (Optional)
+                  </label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows={4}
+                    value={formData.message}
+                    onChange={handleChange}
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#303274] focus:border-transparent"
+                    placeholder="Any specific questions or requests?"
+                  />
+                </div>
+                
+                <div className="flex flex-col sm:flex-row gap-4 pt-4">
+                  <button
+                    type="submit"
+                    className="flex items-center justify-center gap-2 px-6 py-3 bg-[#303274] text-white font-semibold rounded-lg shadow-md hover:bg-[#3f42a5] transition flex-1"
+                  >
+                    <Send size={18} />
+                    Submit Booking Request
+                  </button>
                   
-                  <div>
-                    <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
-                      Message (Optional)
-                    </label>
-                    <textarea
-                      id="message"
-                      name="message"
-                      rows={4}
-                      value={formData.message}
-                      onChange={handleChange}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#303274] focus:border-transparent"
-                      placeholder="Any specific questions or requests?"
-                    />
-                  </div>
-                  
-                  <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                    <button
-                      type="submit"
-                      className="flex items-center justify-center gap-2 px-6 py-3 bg-[#303274] text-white font-semibold rounded-lg shadow-md hover:bg-[#3f42a5] transition flex-1"
-                    >
-                      <Send size={18} />
-                      Submit Booking Request
-                    </button>
-                    
-                    <button
-                      type="button"
-                      onClick={handleWhatsApp}
-                      className="flex items-center justify-center gap-2 px-6 py-3 bg-[#25D366] text-white font-semibold rounded-lg shadow-md hover:bg-[#20b858] transition flex-1"
-                    >
-                      <MessageCircle size={18} />
-                      Message via WhatsApp
-                    </button>
-                  </div>
-                  
-                  <p className="text-sm text-gray-500 text-center">
-                    Better yet, see us in person!
-                  </p>
-                </form>
-              </>
-            )}
-          </div>
-        </motion.section>
-      </div>
-    );
-  }
+                  <button
+                    type="button"
+                    onClick={handleWhatsApp}
+                    className="flex items-center justify-center gap-2 px-6 py-3 bg-[#25D366] text-white font-semibold rounded-lg shadow-md hover:bg-[#20b858] transition flex-1"
+                  >
+                    <MessageCircle size={18} />
+                    Message via WhatsApp
+                  </button>
+                </div>
+                
+                <p className="text-sm text-gray-500 text-center">
+                  Better yet, see us in person!
+                </p>
+              </form>
+            </>
+          )}
+        </div>
+      </motion.section>
+    </div>
+  );
+}
