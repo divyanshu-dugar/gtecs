@@ -76,7 +76,7 @@ export default function Home() {
               </span>
               <br />
               <span className="bg-gradient-to-r from-[#F58634] to-[#ff9d55] bg-clip-text text-transparent">
-                Child's Potential
+                Child&apos;s Potential
               </span>
             </h1>
 
@@ -84,8 +84,9 @@ export default function Home() {
             <p className="text-xl text-gray-300 mt-6 leading-relaxed">
               From <span className="text-[#F58634] font-semibold">Abacus</span> to{" "}
               <span className="text-[#F58634] font-semibold">Robotics</span>,  
-              we nurture creativity, confidence & critical thinking for the next generation.
+              we nurture creativity, confidence &amp; critical thinking for the next generation.
             </p>
+
 
             {/* Testimonial Quote */}
             <motion.div
@@ -95,7 +96,7 @@ export default function Home() {
               className="mt-8 p-4 border-l-4 border-[#F58634] bg-white/5 backdrop-blur-sm rounded-r-lg"
             >
               <p className="italic text-gray-200 text-lg">
-                "Every child is a genius in their own way. We just help them discover it."
+                &quot;Every child is a genius in their own way. We just help them discover it.&quot;
               </p>
             </motion.div>
 
