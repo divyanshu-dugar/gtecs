@@ -68,7 +68,7 @@ export default function Navbar() {
           <div className="flex items-center gap-4">
             <Link href="/contact" className="flex items-center gap-2 text-sm text-gray-600 hover:text-[#303274] transition-colors">
               <Phone size={16} />
-              <span>+91 98765 43210</span>
+              <span>+91 87775 74997</span>
             </Link>
             <Button 
               className="rounded-xl px-6 bg-gradient-to-r from-[#F58634] to-[#FBBF24] text-white font-semibold hover:shadow-lg transition-all hover:scale-105"
