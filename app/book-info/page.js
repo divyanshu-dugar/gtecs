@@ -33,7 +33,7 @@ export default function BookInfoSession() {
         {
           to_email: formData.email,   // recipient (user who filled the form)
           to_name: formData.name,     // their name
-          from_name: "GTECS", // your default sender name
+          from_name: "1% Wiser - Kids", // your default sender name
           to_phone: formData.phone,
           message: `${formData.message ? formData.message : ""}`,
         },
@@ -50,7 +50,7 @@ export default function BookInfoSession() {
   };
 
   const handleWhatsApp = () => {
-    const text = `Hello GTECS, I would like to book an info session:\nName: ${formData.name || 'Not provided'}\nPhone: ${formData.phone || 'Not provided'}\nEmail: ${formData.email || 'Not provided'}\nMessage: ${formData.message || 'No message'}`;
+    const text = `Hello 1% Wiser - Kids, I would like to book an info session:\nName: ${formData.name || 'Not provided'}\nPhone: ${formData.phone || 'Not provided'}\nEmail: ${formData.email || 'Not provided'}\nMessage: ${formData.message || 'No message'}`;
     const encodedText = encodeURIComponent(text);
     window.open(`https://wa.me/16479947157?text=${encodedText}`, '_blank');
   };
@@ -79,7 +79,7 @@ export default function BookInfoSession() {
             <div className="flex items-center gap-3 sm:col-span-2">
               <MapPin className="w-6 h-6 text-[#303274]" />
               <span className="text-gray-700">
-                GTECS, 85 Ellesmere Rd, #205, Parkway Mall, 2nd Floor, Toronto
+                1% Wiser - Kids, 85 Ellesmere Rd, #205, Parkway Mall, 2nd Floor, Toronto
               </span>
             </div>
           </div>

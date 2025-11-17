@@ -19,7 +19,7 @@ export default function AboutUs() {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-[#303274] mb-6 leading-tight">
-            About <span className="bg-gradient-to-r from-[#F58634] to-[#FBBF24] bg-clip-text text-transparent">GTECS</span>
+            About <span className="bg-gradient-to-r from-[#F58634] to-[#FBBF24] bg-clip-text text-transparent">1% Wiser - Kids</span>
           </h1>
           
           <p className="text-xl md:text-3xl text-gray-700 max-w-4xl mx-auto leading-relaxed font-light">
@@ -96,7 +96,7 @@ export default function AboutUs() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <h3 className="text-3xl font-bold mb-6">
-                Why <span className="text-[#FBBF24]">GTECS</span> Stands Out
+                Why <span className="text-[#FBBF24]">1% Wiser - Kids</span> Stands Out
               </h3>
               <p className="text-blue-100 text-lg leading-relaxed mb-6">
                 We combine global educational expertise with personalized attention, 

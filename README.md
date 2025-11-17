@@ -1,8 +1,8 @@
-# 🎓 GTECS Educational Center Website
+# 🎓 1% Wiser - Kids Educational Center Website
 
-A modern, responsive website for GTECS Educational Center built with Next.js, featuring programs in UCMAS Mental Math, Robotics, and Creative Mathematics.
+A modern, responsive website for 1% Wiser - Kids Educational Center built with Next.js, featuring programs in UCMAS Mental Math, Robotics, and Creative Mathematics.
 
-![GTECS Website](https://img.shields.io/badge/GTECS-Education%20Website-blue?style=for-the-badge&logo=react)
+![1% Wiser - Kids Website](https://img.shields.io/badge/1% Wiser - Kids-Education%20Website-blue?style=for-the-badge&logo=react)
 ![Next.js](https://img.shields.io/badge/Next.js-15.5.0-black?style=for-the-badge&logo=next.js)
 ![React](https://img.shields.io/badge/React-18.2.0-61dafb?style=for-the-badge&logo=react)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38b2ac?style=for-the-badge&logo=tailwind-css)
@@ -14,7 +14,7 @@ A modern, responsive website for GTECS Educational Center built with Next.js, fe
 
 ## 🚀 Live Demo
 
-Visit the live website: [https://gtecs.vercel.app](https://gtecs.vercel.app)
+Visit the live website: [https://1% Wiser - Kids.vercel.app](https://1% Wiser - Kids.vercel.app)
 
 ## ✨ Features
 
@@ -39,7 +39,7 @@ Visit the live website: [https://gtecs.vercel.app](https://gtecs.vercel.app)
 ## 📁 Project Structure
 
 ```
-gtecs-website/
+1% Wiser - Kids-website/
 ├── app/                    # Next.js app directory
 │   ├── about/             # About Us page
 │   ├── book-info/         # Booking information page
@@ -61,7 +61,7 @@ gtecs-website/
 
 ### 🏠 Homepage
 - Hero section with sliding image gallery
-- Introduction to GTECS programs
+- Introduction to 1% Wiser - Kids programs
 - Call-to-action buttons
 - Location map integration
 
@@ -85,13 +85,13 @@ gtecs-website/
 ## 📞 Contact Information
 
 - **Phone**: +1 (647) 995-7157 / +1 (647) 994-7157
-- **Email**: info@gtecs.ca
-- **Address**: GTECS, 85 Ellesmere Rd, #205, Parkway Mall, 2nd Floor, Toronto
+- **Email**: info@1% Wiser - Kids.ca
+- **Address**: 1% Wiser - Kids, 85 Ellesmere Rd, #205, Parkway Mall, 2nd Floor, Toronto
 - **Social Media**: Links to be added in footer
 
 ## 📄 License
 
-This project is proprietary and belongs to GTECS Educational Center.
+This project is proprietary and belongs to 1% Wiser - Kids Educational Center.
 
 ## Acknowledgments
 
@@ -100,5 +100,5 @@ This project is proprietary and belongs to GTECS Educational Center.
 - Deployment by [Vercel](https://vercel.com)
 
 <div align="center">
-Made with ❤️ by <a href="https://github.com/divyanshu-dugar">Divyanshu Dugar</a> for GTECS Educational Center
+Made with ❤️ by <a href="https://github.com/divyanshu-dugar">Divyanshu Dugar</a> for 1% Wiser - Kids Educational Center
 </div>
