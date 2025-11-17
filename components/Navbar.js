@@ -96,7 +96,7 @@ export default function Navbar() {
           </div>
           <div className="flex flex-col">
             <span className="text-xl font-bold bg-gradient-to-r from-[#303274] to-[#3f42a5] bg-clip-text text-transparent">
-              GTECS
+              1% Wiser - Kids
             </span>
             <span className="text-xs text-gray-500 -mt-1">Education Excellence</span>
           </div>
@@ -200,7 +200,7 @@ export default function Navbar() {
             className="flex items-center space-x-2 px-4 py-2.5 rounded-xl bg-gradient-to-r from-[#F58634] to-[#ff9a52] text-white font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 group"
           >
             <Phone size={18} />
-            <span>+1 647-GTECS-57</span>
+            <span>+1 647-1% Wiser - Kids-57</span>
             <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
           </a>
           
@@ -254,7 +254,7 @@ export default function Navbar() {
                     <div className="w-8 h-8 bg-gradient-to-br from-[#303274] to-[#3f42a5] rounded-lg flex items-center justify-center">
                       <span className="text-white font-bold text-sm">G</span>
                     </div>
-                    <span className="text-lg font-bold text-[#303274]">GTECS</span>
+                    <span className="text-lg font-bold text-[#303274]">1% Wiser - Kids</span>
                   </div>
                 </Link>
                 <button
