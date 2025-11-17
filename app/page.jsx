@@ -114,7 +114,7 @@ export default function Home() {
               </motion.p>
 
               <motion.div variants={fadeInUp} custom={3} className="mt-8 flex flex-col sm:flex-row gap-4">
-                <Link href="/book" className="inline-flex items-center gap-3 bg-gradient-to-r from-[#F58634] to-[#FBBF24] text-slate-900 px-6 py-3 rounded-xl font-semibold shadow-2xl hover:scale-[1.02] transition-transform">
+                <Link href="/book-info-session" className="inline-flex items-center gap-3 bg-gradient-to-r from-[#F58634] to-[#FBBF24] text-slate-900 px-6 py-3 rounded-xl font-semibold shadow-2xl hover:scale-[1.02] transition-transform">
                   Book Free Diagnostic Session
                   <ArrowRight size={16} />
                 </Link>
