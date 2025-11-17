@@ -424,24 +424,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Footer */}
-        <footer className="mt-20 pb-12">
-          <div className="border-t border-white/6 pt-8">
-            <div className="max-w-7xl mx-auto px-6 md:px-12 flex flex-col md:flex-row items-center justify-between gap-6">
-              <div className="flex items-center gap-3">
-                <div className="w-10 h-10 rounded-xl bg-gradient-to-r from-[#F58634] to-[#FBBF24] flex items-center justify-center">
-                  <Star className="text-white" size={18} />
-                </div>
-                <div>
-                  <div className="font-semibold">1% Wiser – Kids</div>
-                  <div className="text-slate-400 text-sm">Kolkata&apos;s Premier Whole-Child Development Center</div>
-                </div>
-              </div>
-
-              <div className="text-slate-400 text-sm">© {new Date().getFullYear()} 1% Wiser. All rights reserved.</div>
-            </div>
-          </div>
-        </footer>
       </main>
     </div>
   );
