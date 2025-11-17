@@ -14,7 +14,7 @@ A modern, responsive website for 1% Wiser Kids Educational Center built with Nex
 
 ## 🚀 Live Demo
 
-Visit the live website: [https://1percentwiserkids.vercel.app](https://1percentwiserkids.vercel.app)
+Visit the live website: [https://1-percent-wiser-kids.vercel.app/](https://1-percent-wiser-kids.vercel.app/)
 
 ## ✨ Features
 
