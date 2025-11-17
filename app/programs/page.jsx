@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import { Brain, Cpu, Calculator, ArrowRight, Star, Users, Clock, Award, Sparkles, Target, Zap, Heart } from 'lucide-react';
+import { Brain, BookOpen, Target, ArrowRight, Star, Users, Clock, Award, Sparkles, Zap, Heart, Calculator, Mic, Puzzle, Code, Globe, Calendar } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export default function Programs() {
@@ -11,70 +11,61 @@ export default function Programs() {
   const programs = [
     {
       id: 1,
-      title: "UCMAS Mental Math Program",
-      description: "An Abacus-based whole brain development program for children ages 5-13 that dramatically enhances cognitive abilities through mental math training.",
-      fullDescription: "UCMAS Mental Math program is an Abacus based whole brain development program for children between the ages of 5-13. It leads to increased Concentration, Observation, Memory, Imagination and Creativity (COMIC) in kids. It results in supremacy with Judgement, Application, Reasoning and Self Confidence (JARS). UCMAS is an internationally recognized and widely demonstrated children's Cognitive Enrichment program.",
-      image: "/programs/ucmas.png",
-      age: "5-13 years",
-      duration: "2 hours/week",
-      level: "Beginner to Advanced",
-      students: "10,000+",
-      benefits: ["Enhanced concentration", "Improved memory", "Better calculation skills", "Increased confidence", "Whole brain development", "Academic excellence"],
-      category: "math",
-      icon: <Brain className="w-6 h-6" />,
-      color: "from-blue-500 to-purple-600",
-      bgColor: "bg-gradient-to-br from-blue-50 to-purple-50",
+      title: "The Academic Anchor",
+      subtitle: "Structured Curriculum Support",
+      description: "Personalized Mastery Binder system for guaranteed academic improvement from Nursery to Grade 5.",
+      fullDescription: "Our Academic Anchor program provides comprehensive curriculum support with a unique 'Mastery Binder' system. Each child receives a personalized learning plan based on diagnostic assessment, focusing on their specific strengths and needs. We combine concept mastery with real-world applications to ensure deep understanding and academic excellence.",
+      image: "/programs/academic-anchor.jpg",
+      age: "Nursery - Grade 5",
+      duration: "Customized Schedule",
+      level: "Personalized Learning Path",
+      students: "500+ Active Students",
+      benefits: ["Personalized Mastery Binders", "Weekly Growth Tracking", "Real-World Applications", "Guaranteed Improvement", "Individual Learning Plans", "Concept Mastery"],
+      category: "academic",
+      icon: <BookOpen className="w-6 h-6" />,
+      color: "from-blue-500 to-indigo-600",
+      bgColor: "bg-gradient-to-br from-blue-50 to-indigo-50",
       borderColor: "border-blue-200",
       stats: [
-        { value: "95%", label: "Success Rate" },
-        { value: "2x", label: "Learning Speed" },
-        { value: "100%", label: "Focus Improved" }
-      ]
+        { value: "98%", label: "Academic Improvement" },
+        { value: "1:6", label: "Student Ratio" },
+        { value: "100%", label: "Parent Satisfaction" }
+      ],
+      modules: ["Mathematics Mastery", "English Excellence", "Science Exploration", "Weekly Assessments"]
     },
     {
       id: 2,
-      title: "OBOTZ Robotics & Coding",
-      description: "A multi-disciplinary robotics program that teaches children about physics, electronics, and programming through hands-on experiences.",
-      fullDescription: "OBOTZ is a multi-disciplinary robotics program with a specially designed educational pathway to teach and train young minds about Physics, Electronics, and Robotics. STEM learning is the foundational building block of this program, leading youngsters to think scientifically and advance in facts. It's a perfect companion for machine, hardware, and programming-based learning.",
-      image: "/programs/obotz.jpg",
-      age: "7-15 years",
-      duration: "2 hours/week",
-      level: "Beginner to Expert",
-      students: "8,500+",
-      benefits: ["STEM education", "Coding skills", "Problem-solving", "Creative thinking", "Electronics knowledge", "Team collaboration"],
-      category: "robotics",
-      icon: <Cpu className="w-6 h-6" />,
-      color: "from-green-500 to-teal-600",
-      bgColor: "bg-gradient-to-br from-green-50 to-teal-50",
-      borderColor: "border-green-200",
-      stats: [
-        { value: "89%", label: "STEM Interest" },
-        { value: "4.8", label: "Parent Rating" },
-        { value: "50+", label: "Projects" }
-      ]
-    },
-    {
-      id: 3,
-      title: "iMaths Creative Mathematics",
-      description: "A playful mathematics program designed for young children to develop numerical abilities and logical thinking through fun activities.",
-      fullDescription: "iMaths makes mathematics fun for 3 to 7 year olds using play-based methods. Through puzzles, activities, games, and tangrams, math becomes an enjoyable 'no problem' experience. Math education doesn't need to start only when your child steps into school - it starts much earlier. We help develop essential mental and logical skills that form the foundation for all career directions.",
-      image: "/programs/imath.png",
-      age: "3-7 years",
-      duration: "2 hours/week",
-      level: "Foundation",
-      students: "12,000+",
-      benefits: ["Early math foundation", "Logical thinking", "Problem-solving", "Play-based learning", "Cognitive development", "Love for math"],
-      category: "math",
-      icon: <Calculator className="w-6 h-6" />,
-      color: "from-orange-500 to-red-600",
-      bgColor: "bg-gradient-to-br from-orange-50 to-red-50",
+      title: "The Holistic Horizon",
+      subtitle: "Life Skills & Overall Development",
+      description: "Comprehensive 15+ module program building essential 21st-century skills and character development.",
+      fullDescription: "The Holistic Horizon is our flagship life skills program featuring 15+ specialized modules designed to develop the whole child. From public speaking and logical reasoning to financial literacy and emotional intelligence, we build future-ready individuals who excel both academically and in life. Our project-based approach ensures practical application of all learned skills.",
+      image: "/programs/holistic-horizon.jpg",
+      age: "5-15 years",
+      duration: "Modular Programs",
+      level: "Beginner to Advanced",
+      students: "600+ Developing Minds",
+      benefits: ["15+ Skill Modules", "Project-Based Learning", "Confidence Building", "Future-Ready Skills", "Emotional Intelligence", "Leadership Development"],
+      category: "holistic",
+      icon: <Brain className="w-6 h-6" />,
+      color: "from-orange-500 to-amber-600",
+      bgColor: "bg-gradient-to-br from-orange-50 to-amber-50",
       borderColor: "border-orange-200",
       stats: [
-        { value: "98%", label: "Engagement" },
-        { value: "3x", label: "Retention" },
-        { value: "100%", label: "Fun Guaranteed" }
-      ]
+        { value: "15+", label: "Skill Modules" },
+        { value: "3x", label: "Confidence Growth" },
+        { value: "95%", label: "Skill Application" }
+      ],
+      modules: ["Public Speaking & Debate", "Mental Math & Logic", "Robotics & Coding", "Financial Literacy", "Time Management", "Leadership Skills"]
     }
+  ];
+
+  const skillModules = [
+    { icon: Mic, title: "Language & Expression Lab", description: "Public speaking, debate, and confident communication" },
+    { icon: Calculator, title: "Logic & Math Gym", description: "Mental math, logical reasoning, and critical thinking" },
+    { icon: Code, title: "Future Skills Studio", description: "Coding, tech literacy, and digital creativity" },
+    { icon: Users, title: "People Skills Academy", description: "Leadership, teamwork, and social intelligence" },
+    { icon: Calendar, title: "Organization Masters", description: "Time management, planning, and discipline" },
+    { icon: Globe, title: "Young Explorer's Club", description: "GK, philosophy, and global awareness" }
   ];
 
   const filteredPrograms = activeTab === 'all' 
@@ -92,7 +83,7 @@ export default function Programs() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 pt-24 pb-16 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 pt-12 pb-16 relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute top-0 left-0 w-full h-96 bg-gradient-to-b from-[#303274]/10 to-transparent" />
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-[#F58634]/5 rounded-full blur-3xl" />
@@ -108,20 +99,20 @@ export default function Programs() {
         >
           <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm border border-white/20 rounded-full px-6 py-2 mb-6 shadow-lg">
             <Sparkles size={16} className="text-[#F58634]" />
-            <span className="text-sm font-medium text-gray-700">Transformative Learning Programs</span>
+            <span className="text-sm font-medium text-gray-700">Kolkata's Premier Whole-Child Development</span>
           </div>
           
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             <span className="bg-gradient-to-r from-[#303274] to-[#F58634] bg-clip-text text-transparent">
-              Unlock Potential
+              Our Two-Pillar Framework
             </span>
             <br />
-            <span className="text-3xl md:text-4xl text-gray-700">Through Innovative Education</span>
+            <span className="text-3xl md:text-4xl text-gray-700">Academic Excellence Meets Life Skills</span>
           </h1>
           
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Discover our cutting-edge programs designed to nurture young minds with future-ready skills, 
-            creativity, and confidence through hands-on learning experiences.
+            Discover our unique integrated approach that guarantees academic success while building essential 
+            21st-century skills through personalized learning and comprehensive development programs.
           </p>
         </motion.div>
 
@@ -134,9 +125,9 @@ export default function Programs() {
         >
           <div className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-xl border border-white/20 p-2 flex flex-wrap justify-center gap-2">
             {[
-              { id: 'all', label: 'All Programs', icon: <Target size={16} /> },
-              { id: 'math', label: 'Mathematics', icon: <Calculator size={16} /> },
-              { id: 'robotics', label: 'Robotics & Coding', icon: <Cpu size={16} /> }
+              { id: 'all', label: 'Both Pillars', icon: <Target size={16} /> },
+              { id: 'academic', label: 'Academic Anchor', icon: <BookOpen size={16} /> },
+              { id: 'holistic', label: 'Holistic Horizon', icon: <Brain size={16} /> }
             ].map((tab) => (
               <motion.button
                 key={tab.id}
@@ -156,17 +147,52 @@ export default function Programs() {
           </div>
         </motion.div>
 
-        {/* Enhanced Programs Grid - FIXED: Removed AnimatePresence wrapper */}
+        {/* Enhanced Programs Grid */}
         <motion.div 
-          key={activeTab} // Add key to trigger re-render on tab change
+          key={activeTab}
           variants={containerVariants}
           initial="hidden"
           animate="visible"
-          className="grid md:grid-cols-2 xl:grid-cols-3 gap-8 mb-20"
+          className="grid md:grid-cols-2 gap-8 mb-20"
         >
           {filteredPrograms.map((program) => (
             <ProgramCard key={program.id} program={program} />
           ))}
+        </motion.div>
+
+        {/* Skill Modules Section */}
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.3 }}
+          className="mb-20"
+        >
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#303274] mb-4">
+              Comprehensive <span className="text-[#F58634]">Skill Development</span> Modules
+            </h2>
+            <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+              Our Holistic Horizon program includes 15+ specialized modules designed to build essential life skills for the 21st century.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {skillModules.map((module, index) => (
+              <motion.div
+                key={index}
+                whileHover={{ y: -5, scale: 1.02 }}
+                className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-gray-200 hover:border-[#F58634]/30 transition-all group"
+              >
+                <div className="flex items-center gap-4 mb-4">
+                  <div className="p-3 bg-gradient-to-r from-[#303274] to-[#F58634] rounded-xl group-hover:scale-110 transition-transform">
+                    <module.icon className="text-white" size={24} />
+                  </div>
+                  <h3 className="font-bold text-gray-800 text-lg">{module.title}</h3>
+                </div>
+                <p className="text-gray-600 text-sm leading-relaxed">{module.description}</p>
+              </motion.div>
+            ))}
+          </div>
         </motion.div>
 
         {/* Enhanced Call to Action */}
@@ -183,11 +209,11 @@ export default function Programs() {
             
             <div className="relative z-10">
               <h2 className="text-3xl md:text-4xl font-bold text-[#303274] mb-4">
-                Ready to Transform Your Child&apos;s Learning Journey?
+                Ready to Experience the 1% Wiser Difference?
               </h2>
               <p className="text-gray-600 mb-8 text-lg max-w-2xl mx-auto">
-                Join thousands of parents who have discovered the power of innovative education. 
-                Book a free info-session to experience our teaching methods firsthand.
+                Join Kolkata's most comprehensive educational program where academic success 
+                and life skills development go hand in hand. Book your free diagnostic session today.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -197,7 +223,7 @@ export default function Programs() {
                   className="px-8 py-4 bg-gradient-to-r from-[#303274] to-[#3f42a5] text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all flex items-center gap-3 group"
                 >
                   <Sparkles size={20} />
-                  Book Free Info Session
+                  Book Free Diagnostic Session
                   <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
                 </motion.button>
                 
@@ -207,7 +233,7 @@ export default function Programs() {
                   className="px-8 py-4 bg-white text-[#303274] font-semibold rounded-xl shadow-lg border border-gray-200 hover:border-[#303274] transition-all flex items-center gap-3"
                 >
                   <Zap size={20} />
-                  Download Program Brochure
+                  Download Program Guide
                 </motion.button>
               </div>
               
@@ -223,11 +249,11 @@ export default function Programs() {
                 </div>
                 <div className="flex items-center gap-2 text-sm text-gray-600">
                   <Users size={16} />
-                  <span>30,000+ Students</span>
+                  <span>500+ Active Students</span>
                 </div>
                 <div className="flex items-center gap-2 text-sm text-gray-600">
                   <Award size={16} />
-                  <span>15+ Years Experience</span>
+                  <span>2-Pillar Integrated Approach</span>
                 </div>
               </div>
             </div>
@@ -276,16 +302,20 @@ function ProgramCard({ program }) {
         
         {/* Category Tag */}
         <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm text-gray-700 px-3 py-1 rounded-full text-sm font-medium">
-          {program.category === 'math' ? 'Mathematics' : 'Robotics & Coding'}
+          {program.category === 'academic' ? 'Academic Excellence' : 'Life Skills Development'}
+        </div>
+
+        {/* Subtitle */}
+        <div className="absolute bottom-4 left-4 text-white font-semibold text-sm">
+          {program.subtitle}
         </div>
       </div>
 
       {/* Content */}
       <div className="p-6 relative">
-        <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-[#303274] transition-colors line-clamp-2">
+        <h3 className="text-xl font-bold text-gray-800 mb-2 group-hover:text-[#303274] transition-colors">
           {program.title}
         </h3>
-
         <p className="text-gray-600 mb-4 leading-relaxed">
           {isExpanded ? program.fullDescription : program.description}
         </p>
@@ -318,11 +348,11 @@ function ProgramCard({ program }) {
           </div>
         </div>
 
-        {/* Benefits */}
+        {/* Key Features */}
         <div className="mb-4">
           <h4 className="font-semibold text-gray-800 mb-3 flex items-center gap-2">
             <Sparkles size={16} className="text-[#F58634]" />
-            Key Benefits:
+            Key Features:
           </h4>
           <div className="grid grid-cols-2 gap-2">
             {program.benefits.slice(0, 4).map((benefit, index) => (
@@ -333,6 +363,25 @@ function ProgramCard({ program }) {
             ))}
           </div>
         </div>
+
+        {/* Modules (for Holistic Horizon) */}
+        {program.modules && program.modules.length > 0 && (
+          <div className="mb-4">
+            <h4 className="font-semibold text-gray-800 mb-2 text-sm">Includes Modules:</h4>
+            <div className="flex flex-wrap gap-2">
+              {program.modules.slice(0, 3).map((module, index) => (
+                <span key={index} className="px-2 py-1 bg-white/60 text-gray-700 text-xs rounded-full border border-gray-300">
+                  {module}
+                </span>
+              ))}
+              {program.modules.length > 3 && (
+                <span className="px-2 py-1 bg-white/60 text-gray-500 text-xs rounded-full">
+                  +{program.modules.length - 3} more
+                </span>
+              )}
+            </div>
+          </div>
+        )}
 
         {/* Actions */}
         <div className="flex justify-between items-center pt-4 border-t border-gray-200/50">
