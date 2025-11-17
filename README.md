@@ -9,8 +9,9 @@ A modern, responsive website for 1% Wiser Kids Educational Center built with Nex
 
 ## 🌟 Website Preview
 
-<img width="1900" height="861" alt="1% Wiser Kids Homepage" src="https://github.com/user-attachments/assets/d8fc73b8-8380-4eb2-aa0c-f4b6d067a4da" />
-<img width="1900" height="893" alt="Programs Page" src="https://github.com/user-attachments/assets/082adda4-cbce-4574-95ac-d099d24d838f" />
+<img width="1900" height="861" alt="1% Wiser Kids Homepage" src="https://github.com/user-attachments/assets/2ef820e3-1997-4d2a-9b2a-6fac12400935" />
+
+<img width="1900" height="893" alt="Programs Page" src="https://github.com/user-attachments/assets/6c966830-6d5a-412b-8d76-4d070ed255a4" />
 
 ## 🚀 Live Demo
 
