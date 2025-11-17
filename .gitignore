@@ -39,3 +39,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+student
+student-repository
+components/charts
+components/ProgressCard.jsx
+components/ProgressReport.jsx
+components/ui/label.jsx
+components/ui/separator.jsx
+
+data
+
+public/images
