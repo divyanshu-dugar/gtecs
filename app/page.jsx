@@ -33,7 +33,7 @@ import {
 
 export default function Home() {
   // Slider / hero
-  const heroSlides = ["/hero/image.png", "/hero/image2.png", "/hero/image3.png"];
+  const heroSlides = ["/hero/image.jpg", "/hero/image2.jpg", "/hero/image3.jpg"];
   const [heroIndex, setHeroIndex] = useState(0);
 
   useEffect(() => {
