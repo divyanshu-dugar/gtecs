@@ -84,10 +84,10 @@ Visit the live website: [https://1% Wiser - Kids.vercel.app](https://1% Wiser - 
 
 ## 📞 Contact Information
 
-- **Phone**: +1 (647) 995-7157 / +1 (647) 994-7157
-- **Email**: info@1% Wiser - Kids.ca
-- **Address**: 1% Wiser - Kids, 85 Ellesmere Rd, #205, Parkway Mall, 2nd Floor, Toronto
-- **Social Media**: Links to be added in footer
+- **Phone**: +91 6290677528 / +91 8777574997
+- **Email**: info@1.percent.wiser.kids.com
+- **Address**: 1% Wiser - Kids, Lorem Epsum, Kolkata, 2nd Floor, West Bengal
+- **Social Media**: 
 
 ## 📄 License
 
