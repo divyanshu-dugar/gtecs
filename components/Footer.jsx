@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           {/* Brand Column */}
           <div className="lg:col-span-1">
-            <h3 className="text-2xl font-bold mb-4">GTECS</h3>
+            <h3 className="text-2xl font-bold mb-4">1% Wiser - Kids</h3>
             <p className="text-blue-100 mb-6 leading-relaxed">
               Unlocking potential through innovative education. From abacus to robotics, 
               we inspire creativity, confidence, and critical thinking in every child.
@@ -98,7 +98,7 @@ export default function Footer() {
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-[#F58634] mt-1 flex-shrink-0" />
                 <span className="text-blue-100">
-                  GTECS, 85 Ellesmere Rd, #205<br />
+                  1% Wiser - Kids, 85 Ellesmere Rd, #205<br />
                   Parkway Mall, 2nd Floor<br />
                   Toronto, ON
                 </span>
@@ -120,10 +120,10 @@ export default function Footer() {
               <div className="flex items-center gap-3">
                 <Mail className="w-5 h-5 text-[#F58634] flex-shrink-0" />
                 <a 
-                  href="mailto:info@gtecs.ca" 
+                  href="mailto:info@1% Wiser - Kids.ca" 
                   className="text-blue-100 hover:text-white transition-colors"
                 >
-                  info@gtecs.ca
+                  info@1% Wiser - Kids.ca
                 </a>
               </div>
               
@@ -144,7 +144,7 @@ export default function Footer() {
         {/* Bottom Section */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-blue-100 text-sm">
-            © {new Date().getFullYear()} GTECS. All rights reserved.
+            © {new Date().getFullYear()} 1% Wiser - Kids. All rights reserved.
           </p>
           
           <div className="flex flex-wrap gap-6 text-sm">
