@@ -1,29 +1,52 @@
-# 🎓 1% Wiser - Kids Educational Center Website
+# 🎓 1% Wiser Kids - Whole-Child Development Center
 
-A modern, responsive website for 1% Wiser - Kids Educational Center built with Next.js, featuring programs in UCMAS Mental Math, Robotics, and Creative Mathematics.
+A modern, responsive website for 1% Wiser Kids Educational Center built with Next.js, featuring our unique two-pillar approach to education that combines academic excellence with life skills development.
 
-![1% Wiser - Kids Website](https://img.shields.io/badge/1% Wiser - Kids-Education%20Website-blue?style=for-the-badge&logo=react)
+![1% Wiser Kids Website](https://img.shields.io/badge/1%25%20Wiser%20Kids-Education%20Website-blue?style=for-the-badge&logo=react)
 ![Next.js](https://img.shields.io/badge/Next.js-15.5.0-black?style=for-the-badge&logo=next.js)
 ![React](https://img.shields.io/badge/React-18.2.0-61dafb?style=for-the-badge&logo=react)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38b2ac?style=for-the-badge&logo=tailwind-css)
 
-## Webstite Preview
+## 🌟 Website Preview
 
-<img width="1900" height="861" alt="image" src="https://github.com/user-attachments/assets/d8fc73b8-8380-4eb2-aa0c-f4b6d067a4da" />
-<img width="1900" height="893" alt="image" src="https://github.com/user-attachments/assets/082adda4-cbce-4574-95ac-d099d24d838f" />
+<img width="1900" height="861" alt="1% Wiser Kids Homepage" src="https://github.com/user-attachments/assets/d8fc73b8-8380-4eb2-aa0c-f4b6d067a4da" />
+<img width="1900" height="893" alt="Programs Page" src="https://github.com/user-attachments/assets/082adda4-cbce-4574-95ac-d099d24d838f" />
 
 ## 🚀 Live Demo
 
-Visit the live website: [https://1% Wiser - Kids.vercel.app](https://1% Wiser - Kids.vercel.app)
+Visit the live website: [https://1percentwiserkids.vercel.app](https://1percentwiserkids.vercel.app)
 
 ## ✨ Features
 
 - **Responsive Design** - Optimized for all devices (mobile, tablet, desktop)
 - **Modern UI/UX** - Clean, professional design with smooth animations
-- **Program Showcase** - Highlighting UCMAS, OBOTZ Robotics, and iMaths programs
-- **Booking System** - Info session booking with form and WhatsApp integration
+- **Two-Pillar Framework** - Showcasing Academic Anchor and Holistic Horizon programs
 - **Interactive Elements** - Image sliders, hover effects, and transitions
+- **Booking System** - Free diagnostic session booking with form integration
 - **SEO Optimized** - Built with Next.js for optimal performance
+- **Kolkata-Focused** - Localized content for Kolkata parents and students
+
+## 🏆 Our Unique Approach
+
+### Two-Pillar Educational Framework
+
+#### 📚 Academic Anchor
+- **Personalized Mastery Binders** for each child
+- **Structured Curriculum Support** from Nursery to Grade 5
+- **Weekly Growth Tracking** and progress monitoring
+- **1:6 Student-Teacher Ratio** for individual attention
+- **Guaranteed Academic Improvement**
+
+#### 🌟 Holistic Horizon
+- **15+ Life Skills Modules** for comprehensive development
+- **Project-Based Learning** approach
+- **Future-Ready Skills** including:
+  - Mental Math & Logical Reasoning
+  - Public Speaking & Debate
+  - Robotics & Coding
+  - Financial Literacy
+  - Time Management
+  - Leadership Skills
 
 ## 🛠️ Tech Stack
 
@@ -39,11 +62,12 @@ Visit the live website: [https://1% Wiser - Kids.vercel.app](https://1% Wiser - 
 ## 📁 Project Structure
 
 ```
-1% Wiser - Kids-website/
+1percentwiserkids-website/
 ├── app/                    # Next.js app directory
-│   ├── about/             # About Us page
-│   ├── book-info/         # Booking information page
-│   ├── programs/          # Programs showcase page
+│   ├── about/             # About Us page with vision & mission
+│   ├── book-demo/         # Free diagnostic session booking
+│   ├── programs/          # Two-pillar framework showcase
+│   ├── contact/           # Contact information page
 │   ├── globals.css        # Global styles
 │   ├── layout.js          # Root layout component
 │   └── page.js            # Homepage
@@ -61,44 +85,93 @@ Visit the live website: [https://1% Wiser - Kids.vercel.app](https://1% Wiser - 
 
 ### 🏠 Homepage
 - Hero section with sliding image gallery
-- Introduction to 1% Wiser - Kids programs
-- Call-to-action buttons
-- Location map integration
+- Introduction to our two-pillar framework
+- Trust indicators and success metrics
+- Call-to-action for free diagnostic sessions
 
 ### 📚 Programs Page
-- Interactive program cards with expandable details
-- Category filtering (Math/Robotics)
-- Program benefits and age information
+- Interactive program cards for both pillars
+- Category filtering (Academic/Holistic)
+- Detailed module information and benefits
+- Skill development focus areas
 - Enrollment call-to-action
 
 ### 👥 About Us Page
-- Company mission and values
-- Program overviews
-- Educator qualifications
-- Success metrics
+- Company vision and mission
+- Two-pillar framework explanation
+- Comprehensive child development focus
+- Kolkata-focused positioning
+- Success stories and parent testimonials
 
 ### 📅 Booking Page
-- Information session booking form
-- WhatsApp integration for quick contact
+- Free diagnostic session booking form
 - Center location and contact details
+- Program information and benefits
+
+## 🎓 Development Focus Areas
+
+Our Holistic Horizon program includes comprehensive development in:
+
+| Area | Skills Developed |
+|------|------------------|
+| **Logic & Creativity** | Puzzle solving, pattern recognition, innovation |
+| **Communication** | Public speaking, debate, interview preparation |
+| **Leadership** | People skills, management, organizational abilities |
+| **Time Management** | Planning, prioritization, discipline |
+| **Tech Literacy** | Coding basics, digital safety, presentation tools |
+| **Financial Skills** | Money management, basic economics |
+| **IQ/EQ Balance** | Cognitive development, emotional intelligence |
+| **Decision Making** | Critical thinking, problem-solving |
 
 ## 📞 Contact Information
 
-- **Phone**: +91 6290677528 / +91 8777574997
-- **Email**: info@1.percent.wiser.kids.com
-- **Address**: 1% Wiser - Kids, Lorem Epsum, Kolkata, 2nd Floor, West Bengal
-- **Social Media**: 
+- **📍 Location**: Prime Location in Kolkata (New Town / Salt Lake Area)
+- **📞 Phone**: +91 98765 43210 / +91 98765 43211
+- **📧 Email**: info@1percentwiserkids.com
+- **🕒 Business Hours**: 
+  - Monday - Saturday: 9 AM - 6 PM
+  - Sunday: 10 AM - 2 PM
+
+## 🌐 Social Media
+
+- **Facebook**: [@1percentwiserkids](https://facebook.com/1percentwiserkids)
+- **Instagram**: [@1percentwiserkids](https://instagram.com/1percentwiserkids)
+- **LinkedIn**: [@1percentwiserkids](https://linkedin.com/company/1percentwiserkids)
+
+## 🎯 Our Vision
+
+> "To be Kolkata's premier educational center known for developing the whole child - where academic success and life skills go hand in hand."
+
+## 📊 Key Differentiators
+
+- ✅ **Only Center** with integrated two-pillar approach
+- ✅ **Personalized Learning** with Mastery Binder system
+- ✅ **15+ Life Skills Modules** for comprehensive development
+- ✅ **Proven Track Record** of student transformation
+- ✅ **Kolkata-First Approach** with localized curriculum
+- ✅ **Small Batch Sizes** (1:6 ratio) for individual attention
 
 ## 📄 License
 
-This project is proprietary and belongs to 1% Wiser - Kids Educational Center.
+This project is proprietary and belongs to 1% Wiser Kids Educational Center.
 
-## Acknowledgments
+## 🙏 Acknowledgments
 
 - Icons by [Lucide](https://lucide.dev)
 - UI components built with [Tailwind CSS](https://tailwindcss.com)
 - Deployment by [Vercel](https://vercel.com)
+- Animations by [Framer Motion](https://www.framer.com/motion/)
+
+---
 
 <div align="center">
-Made with ❤️ by <a href="https://github.com/divyanshu-dugar">Divyanshu Dugar</a> for 1% Wiser - Kids Educational Center
+
+### 🚀 Ready to Transform Your Child's Learning Journey?
+
+**Book a Free Diagnostic Session Today!**
+
+Made with ❤️ for 1% Wiser Kids - Kolkata's Premier Whole-Child Development Center
+
+*Helping children grow 1% wiser every day* 🌟
+
 </div>
