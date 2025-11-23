@@ -66,7 +66,7 @@ Visit the live website: [https://1-percent-wiser-kids.vercel.app/](https://1-per
 1percentwiserkids-website/
 ├── app/                    # Next.js app directory
 │   ├── about/             # About Us page with vision & mission
-│   ├── book-demo/         # Free diagnostic session booking
+│   ├── contact/           # Free diagnostic session booking
 │   ├── programs/          # Two-pillar framework showcase
 │   ├── contact/           # Contact information page
 │   ├── globals.css        # Global styles

@@ -74,7 +74,7 @@ export default function Navbar() {
               className="rounded-xl px-6 bg-gradient-to-r from-[#F58634] to-[#FBBF24] text-white font-semibold hover:shadow-lg transition-all hover:scale-105"
               asChild
             >
-              <Link href="/book-demo">
+              <Link href="/contact">
                 Book Free Demo
               </Link>
             </Button>
@@ -163,7 +163,7 @@ export default function Navbar() {
               className="w-full rounded-xl bg-gradient-to-r from-[#F58634] to-[#FBBF24] text-white font-semibold hover:shadow-lg transition-all"
               asChild
             >
-              <Link href="/book-demo" onClick={() => setOpen(false)}>
+              <Link href="/contact" onClick={() => setOpen(false)}>
                 Book Free Demo
               </Link>
             </Button>

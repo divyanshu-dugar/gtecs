@@ -78,7 +78,6 @@ export default function Footer() {
                 { href: "/about", label: "About Us" },
                 { href: "/programs", label: "Programs" },
                 { href: "/contact", label: "Contact" },
-                { href: "/contact", label: "Book Free Demo" },
               ].map(({ href, label }, index) => (
                 <li key={label}>
                   <motion.div whileHover={{ x: 4 }}>
@@ -209,7 +208,7 @@ export default function Footer() {
                 className="pt-4"
               >
                 <Link 
-                  href="/book-demo" 
+                  href="/contact" 
                   className="inline-flex items-center gap-3 bg-gradient-to-r from-[#F58634] to-[#FBBF24] text-slate-900 px-6 py-3 rounded-xl font-semibold shadow-2xl hover:scale-[1.02] transition-transform w-full justify-center"
                 >
                   <Phone size={16} />
